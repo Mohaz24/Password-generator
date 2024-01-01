@@ -1,21 +1,6 @@
-# co6ae4a02b603af0a4963db1f
+# Password generator
 
-Quick start:
+## Live site: https://stately-llama-518d2f.netlify.app/
 
-```
-$ npm install
-$ npm start
-````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+<img width="938" alt="Screenshot 2024-01-01 221323" src="https://github.com/Mohaz24/Password-generator/assets/107796482/5e8b0c5c-b293-406b-bd87-fb5b11b70a98">
