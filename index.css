@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1F2937;
+}
+
+/* Typograhpy */
+h2,
+h1 {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 45px;
+  margin-bottom: 0em;
+  color: #fff;
+}
+
+span{
+  color: #4ADF86;
+  display: block;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #d5d4d8;
+  margin-top: 0.7em;
+}
+
+/* Similar elements */
+
+label {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+
+
+input[type="text"],
+p {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+button {
+  font-family: "Karla", sans-serif;
+  cursor: pointer;
+}
+
+button {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}
+
+
+/* Range element */
+#ranges {
+  margin-top: 0;
+  margin-bottom: 0px;
+  width: 205px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.input {
+  background: #273549;
+  width: 211px;
+  height: 39px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 32px;
+  text-align: center;
+  color: #55f991;
+  margin-top: 20px;
+}
+
+
+
+input[type="text"],
+.container---btn {
+  border: none;
+  border-radius: 6px;
+}
+
+#length {
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 30px auto;
+  width: 410px;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 30px blueviolet;
+  padding: 50px 25px;
+  background: #1F2937;
+  border-radius: 15px;
+}
+
+.label-container {
+  padding-top: 15px;
+}
+
+/* Placeholder inputs */
+.container---place-holder {
+  display: flex;
+  grid-gap: 14px;
+}
+
+.container---btn {
+  width: 191px;
+  height: 42px;
+  background: #10b981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  margin: 25px 0px 0px 0px;
+}
+.container---line {
+  width: 430px;
+  border: 1px solid #2f3e53;
+  margin: 0 0em auto;
+}
+
+.container---password {
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.container-flex-box{
+   /* background-color: red; */
+   display: flex;
+   margin-right: 0;
+   justify-content: space-between;
+   align-items: center;
+  
+} 
+
+#password-strength{
+   /* font-family: "Roboto", sans-serif; */
+}
+
+/* .weak{
+  color: red;
+}
+
+.good{
+  color: lightgreen;
+}
+
+.strong{
+  color: darkgreen;
+} */
+
+
+.radio-button {
+  /* display: flex;
+  gap: 10px;
+  justify-content: center; */
+  margin: 10px;
+  position: relative;
+  color: white;
+}
+
+.radio-button input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio {
+  position: relative;
+  display: inline-flex;
+  flex-direction: wrap;
+  margin-inline: 7px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  transform: translateZ(-25px);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.radio::before {
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  background-color: #D4D4D4;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.radio-button input[type="radio"]:checked + .radio {
+  border-color: #26252A;
+  transform: translateZ(0px);
+  background-color: #D4D4D4;
+}
+
+.radio-button input[type="radio"]:checked + .radio::before {
+  opacity: 1;
+}
+
+
+
+
+@media (max-width: 550px) {
+  .container {
+    margin-top: 0;
+    border-radius: 0px;
+    margin: 0;
+    border: none;
+    /* min-height: 100vh; */
+    /* width: 100%; */
+  }
+  .container---place-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .container---line {
+    width: 370px;
+    border: 1px solid #2f3e53;
+    margin: 0 0em auto;
+  }
+
+  .container-flex-box{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+}
